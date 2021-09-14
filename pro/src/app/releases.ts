@@ -3,6 +3,7 @@ export class Releases{
     theme: string;
     components: string;
     performance: string;
+  id: any;
 
     constructor(version: string, theme: string, components: string, performance: string){
         this.version=version;

@@ -28,6 +28,7 @@ export class ReleasesComponent implements OnInit {
       performance: ['', [Validators.required]]
     })}
 
+    
     public add(): void{
       this.releases.push(this.form.value)
     }
