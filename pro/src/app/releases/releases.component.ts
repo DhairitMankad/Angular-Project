@@ -9,6 +9,8 @@ import { ReleasesService } from '../releases.service';
   styleUrls: ['./releases.component.css']
 })
 export class ReleasesComponent implements OnInit {
+  Releases: Releases[]=[];
+  search!: string;
   display = 'none';
   form: FormGroup;
   @Input("releases") releases: any;
