@@ -39,18 +39,6 @@ export class ReleasesComponent implements OnInit {
       this.releases = response;
     });
  }
- Search(){
-   if(this.version == ""){
-     this.ngOnInit();     
-   }
-   else
-   {
-      this.releases = this.releases.filter((res: Releases) => {
-        return res.version.toLocaleLowerCase().match(this.version.toLocaleLowerCase());
-      })
-   }
- }
-
 
  openModal() {
   this.display = 'block';
