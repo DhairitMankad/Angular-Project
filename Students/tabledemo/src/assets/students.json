@@ -1,0 +1,16 @@
+[
+    {
+        "Name":"Rahul",
+        "City":"Mumbai",
+        "State":"Maharashtra",
+        "Pincode":"400001",
+        "Mobile":9820098200
+    },
+    {
+        "Name":"Parthiv",
+        "City":"Kolkata",
+        "State":"West Bengal",
+        "Pincode":"398241",
+        "Mobile":9234592345
+    }
+]
